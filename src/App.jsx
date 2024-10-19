@@ -5,12 +5,7 @@ import TodoList from './components/TodoList'
 
 function App() {
   {/**destructuring property hook */}
-  const [todos, setTodos] = useState([
-    'Go to University.',
-    'Take 5 classes and 1 lab classes',
-    'Finish Phero classes',
-    'Practice 4 hours!'
-  ]);
+  const [todos, setTodos] = useState([]);
   const [todoValue, setTodoValue] = useState('');
   {/*json stringify*/}
   function persistData(newList){
